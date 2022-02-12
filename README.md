@@ -41,3 +41,8 @@ the eml filename.
 -c 只导出邮件内容
 
 -f 被解析的eml文件名
+
+
+# 引用
+对邮件头的解析，基于某大佬的代码，修复了go标准库对rfc7578中4.2节标准实现导致的bug，并添加了对中文解码的支持
+https://github.com/DusanKasan/parsemail
