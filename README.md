@@ -44,5 +44,5 @@ the eml filename.
 
 
 # 引用
-对邮件头的解析，基于某大佬的代码，修复了go标准库对rfc7578中4.2节标准实现导致的bug，并添加了对中文解码的支持
+对邮件头的解析，基于DusanKasan大佬的代码，修复了go标准库对rfc7578中4.2节标准实现导致的bug，并添加了对中文解码的支持
 https://github.com/DusanKasan/parsemail
